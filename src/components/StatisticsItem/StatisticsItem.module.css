@@ -9,3 +9,8 @@
   font-weight: 900;
   color: var(--color-accent);
 }
+.icon {
+  fill: aqua;
+  width: 20px;
+  height: 20px;
+}

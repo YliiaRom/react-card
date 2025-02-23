@@ -20,6 +20,6 @@
   gap: 8px;
   background: var(--color-light);
   border-radius: 8px;
-  box-shadow: var(--shadow-smal);
+  box-shadow: var(--shadow-regular);
   padding: 20px 40px;
 }
