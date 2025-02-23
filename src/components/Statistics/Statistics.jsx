@@ -18,8 +18,8 @@ const Statistics = ({ stats, title }) => {
         {stats.map((date, index) => {
           return (
             <li className={style.item} key={date.id}>
-              <p className={style.svgIcon}>{icons[index]}</p>
-              <StatisticsItem stats={date} />
+              {/* <p className={style.svgIcon}>{icons[index]}</p> */}
+              <StatisticsItem stats={date} icon={icons[index]} />
             </li>
           );
         })}

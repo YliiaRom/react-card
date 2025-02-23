@@ -4,7 +4,7 @@ import { IconContext } from 'react-icons';
 const StatisticsItem = ({ stats: { total, title }, icon }) => {
   return (
     <>
-      <IconContext.Provider value={{ size: 30, color: '#29a14f' }}>
+      <IconContext.Provider value={{ size: 30, color: '#000000' }}>
         {icon}
       </IconContext.Provider>
       <span className={style.counter}>{total}</span>
