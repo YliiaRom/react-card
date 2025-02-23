@@ -2,6 +2,7 @@
   color: var(--color-gray);
   font-size: var(--font-medium);
   font-weight: 300;
+  text-align: center;
 }
 
 .counter {
